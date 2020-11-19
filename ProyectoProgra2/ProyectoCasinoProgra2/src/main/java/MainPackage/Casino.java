@@ -1,45 +1,17 @@
 package MainPackage;
 
 
-import java.util.*;
 import java.util.ArrayList;
-/**
- * 
- */
+
 public class Casino {
 
-    /**
-     * Default constructor
-     */
-    public Casino() {
-    }
-
-    /**
-     * 
-     */
     private Double cantDineroCaja;
-
-    /**
-     * 
-     */
     private ArrayList<Jugador> jugadores;
-
-    /**
-     * 
-     */
     private ArrayList<Maquina> maquinas;
 
-
-    /**
-     * 
-     */
-    public void Casino() {
-        // TODO implement here
+    public Casino() {
+            
     }
-
-    /**
-     * 
-     */
     public void GanaciasTotales() {
         // Total acumulado de ganancias en todas las máquinas
     }
