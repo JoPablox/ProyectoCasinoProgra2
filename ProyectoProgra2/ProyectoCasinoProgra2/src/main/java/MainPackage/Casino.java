@@ -41,7 +41,7 @@ public class Casino {
      * 
      */
     public void GanaciasTotales() {
-        // TODO implement here
+        // Total acumulado de ganancias en todas las máquinas
     }
 
     /**
