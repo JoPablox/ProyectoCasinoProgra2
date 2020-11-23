@@ -22,7 +22,7 @@ public class Maquina {
     /**
      * 
      */
-    private Double costojugada;
+    private Double costoJugada;
 
     /**
      * 
@@ -34,7 +34,7 @@ public class Maquina {
      * @param id 
      * @param costojugada
      */
-    public void Maquina(String id, Double costojugada) {
+    public void Maquina(String id, Double costoJugada) {
         // TODO implement here
     }
 

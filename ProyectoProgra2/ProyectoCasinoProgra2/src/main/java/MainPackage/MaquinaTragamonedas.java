@@ -3,12 +3,12 @@ package MainPackage;
 /**
  * 
  */
-public class Maquina1 extends Maquina {
+public class MaquinaTragamonedas extends Maquina {
 
     /**
      * Default constructor
      */
-    public Maquina1() {
+    public MaquinaTragamonedas() {
     }
 
 }
