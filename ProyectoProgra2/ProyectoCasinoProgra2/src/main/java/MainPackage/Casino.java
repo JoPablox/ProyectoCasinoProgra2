@@ -12,6 +12,13 @@ public class Casino {
     public Casino() {
             
     }
+
+    public Casino(ArrayList<Maquina> maquinas, ArrayList<Jugador> jugadores) {
+        this.maquinas = maquinas;
+        this.jugadores = jugadores;
+    }
+    
+    
     public void GanaciasTotales() {
         // Total acumulado de ganancias en todas las máquinas
     }
@@ -30,4 +37,9 @@ public class Casino {
         // TODO implement here
     }
 
+    public void SeleccionarJugador(String idJugador) {
+        // TODO implement here
+        //return this.jugadores[0];
+    }
+    
 }

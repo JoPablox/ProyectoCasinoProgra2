@@ -43,6 +43,34 @@ public class Maquina {
      */
     public void Jugar(Jugador jugador) {
         // TODO implement here
+        
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public Double getCostoJugada() {
+        return costoJugada;
+    }
+
+    public void setCostoJugada(Double costoJugada) {
+        this.costoJugada = costoJugada;
+    }
+
+    public ArrayList<Jugada> getJugadas() {
+        return jugadas;
+    }
+
+    public void setJugadas(ArrayList<Jugada> jugadas) {
+        this.jugadas = jugadas;
+    }
+    
+    public void agregarJugada(Jugada j) {
+        this.jugadas.add(j);
+    }
 }
