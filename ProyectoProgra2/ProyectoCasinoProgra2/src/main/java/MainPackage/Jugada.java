@@ -12,12 +12,12 @@ public class Jugada {
     /**
      * 
      */
-    private String idJugador;
+    private int idJugador;
 
     /**
      * 
      */
-    private String idMaquina;
+    private int idMaquina;
 
     /**
      * 
@@ -29,19 +29,19 @@ public class Jugada {
      */
     private Double dineroGanado;
 
-    public String getIdJugador() {
+    public int getIdJugador() {
         return idJugador;
     }
 
-    public void setIdJugador(String idJugador) {
+    public void setIdJugador(int idJugador) {
         this.idJugador = idJugador;
     }
 
-    public String getIdMaquina() {
+    public int getIdMaquina() {
         return idMaquina;
     }
 
-    public void setIdMaquina(String idMaquina) {
+    public void setIdMaquina(int idMaquina) {
         this.idMaquina = idMaquina;
     }
 

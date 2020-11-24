@@ -8,39 +8,26 @@ import java.util.*;
  */
 public class Jugador {
 
+    
+    /**
+     * Atributos del Jugador
+     */
+    private Double cantDineroDisp;
+    private int id;
+    private String nombre;
+    
     /**
      * Default constructor
      */
     public Jugador() {
     }
+    
     // Constructor parametrizado
-    public Jugador(String id, Double cantDinero ) {
+    public Jugador(int id, String nombre, Double cantDinero ) {
         this.id = id;
+        this.nombre = nombre;
         this.cantDineroDisp = cantDinero;
     }
-    
-
-    /**
-     * 
-     */
-    private Double cantDineroDisp;
-
-    /**
-     * 
-     */
-    private String id;
-
-
-
-    /**
-     * @param nombre 
-     * @param id
-     */
-    public void Jugador(String nombre, String id) {
-        // TODO implement here
-    }
-
-
 
     public Double getCantDineroDisp() {
         return cantDineroDisp;
@@ -50,12 +37,20 @@ public class Jugador {
         this.cantDineroDisp = cantDineroDisp;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
     
 }

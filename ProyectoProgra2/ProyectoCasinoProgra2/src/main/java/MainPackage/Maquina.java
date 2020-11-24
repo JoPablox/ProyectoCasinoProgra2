@@ -15,18 +15,11 @@ public class Maquina {
     }
 
     /**
-     * 
+     * Atributos y ArrayList
      */
-    private String id;
-
-    /**
-     * 
-     */
+    private int id;
+    private String nombre;
     private Double costoJugada;
-
-    /**
-     * 
-     */
     private ArrayList<Jugada> jugadas;
 
 
@@ -34,8 +27,12 @@ public class Maquina {
      * @param id 
      * @param costojugada
      */
-    public void Maquina(String id, Double costoJugada) {
+    public void Maquina(int id, String nombre, Double costoJugada) {
         // TODO implement here
+        this.id = id;
+        this.nombre = nombre;
+        this.costoJugada = costoJugada;
+        this.jugadas = new ArrayList();
     }
 
     /**
@@ -46,11 +43,11 @@ public class Maquina {
         
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
