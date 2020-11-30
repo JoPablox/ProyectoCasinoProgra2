@@ -29,6 +29,7 @@ public class Jugada {
      */
     private Double dineroGanado;
 
+
     public int getIdJugador() {
         return idJugador;
     }
@@ -53,6 +54,8 @@ public class Jugada {
         this.resultado = resultado;
     }
 
+
+
     public Double getDineroGanado() {
         return dineroGanado;
     }
@@ -61,5 +64,10 @@ public class Jugada {
         this.dineroGanado = dineroGanado;
     }
 
+  /**  public void ImprimirJugada () {
+        +  + DineroGanado :getDineroGanado()
+    }*/
+
+    public String getJugada() {return "idJugador: " + this.getIdJugador() + " idMaquina: " + this.getIdMaquina() + " resultado: " + this.isResultado() +  " dineroGanado: " + this.getDineroGanado(); }
     
 }

@@ -44,11 +44,15 @@ public class MaquinaAdivina extends Maquina {
                 jugador.setCantDineroDisp(jugador.getCantDineroDisp() + 2 * this.getCostoJugada());
                 JOptionPane.showMessageDialog(null, "Ha GANADO porque su número es igual " + numIngresado + "al número " + numGenerado);
                 jugada.setResultado(true);
+                jugada.setDineroGanado(this.getCostoJugada());
             } else {
                 JOptionPane.showMessageDialog(null, "Ha PERDIDO porque su número " + numIngresado + " es diferente del número " + numGenerado);
                 jugada.setResultado(false);
+                jugada.setDineroGanado((double) 0);
             }
             this.agregarJugada(jugada);
+
+            System.out.println(jugada.getJugada());
 
         } else {
             JOptionPane.showMessageDialog(null, "Fondos insuficientes");

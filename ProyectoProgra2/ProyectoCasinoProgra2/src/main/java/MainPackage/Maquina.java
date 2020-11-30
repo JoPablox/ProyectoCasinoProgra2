@@ -43,6 +43,10 @@ public class Maquina {
         
     }
 
+    /**public void RegistroJugadas(){
+        for Arraylist()
+    }*/
+
     public int getId() {
         return id;
     }

@@ -21,8 +21,8 @@ public class Main {
         // TODO code application logic here
         
         // Crear arrayList maquinas
-        Maquina maquina1 = new MaquinaAdivina(1,"Lotto 01", 5);
-        Maquina maquina2 = new MaquinaAdivina(2,"Lotto 02", 10);
+        Maquina maquina1 = new MaquinaAdivina(1,"Advina 01", 5);
+        Maquina maquina2 = new MaquinaAdivina(2,"Ruleta 02", 10);
         
         ArrayList<Maquina> maquinas = new ArrayList();
         maquinas.add(maquina1);

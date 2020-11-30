@@ -26,15 +26,15 @@ public class MaquinaRuleta extends Maquina {
             jugada.setIdJugador(jugador.getId());
             // 2. Juega:
             // JoptionPane preguntar
-            int numIngresado = Integer.parseInt(JOptionPane.showInputDialog("Introduzca un número del 0 al 9"));
+            // int numIngresado = Integer.parseInt(JOptionPane.showInputDialog("Introduzca un número del 0 al 9"));
             // genera numero random
             // compara con el numero random
             // si gana le suma apuesta x 2, gano = true
             // si pierde gano = false
             Random rand = new Random();
-            int numGenerado1 = rand.nextInt(2)+1;
-            int numGenerado2 = rand.nextInt(2)+1;
-            int numGenerado3 = rand.nextInt(2)+1;
+            int numGenerado1 = rand.nextInt(3)+1;
+            int numGenerado2 = rand.nextInt(3)+1;
+            int numGenerado3 = rand.nextInt(3)+1;
             
             if (numGenerado1 == numGenerado2 && numGenerado2 == numGenerado3) {
                 // Jugador gana y se le paga
