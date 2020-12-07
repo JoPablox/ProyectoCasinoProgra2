@@ -48,7 +48,7 @@ public class Main {
         do {
             try {
                 opcion = Integer.parseInt(JOptionPane.showInputDialog("Bienvenido al Casino La Fortuna \n Digite una opción: \n" + 
-                        "1. Seleccionar Jugador \n" + "2. Salir"));
+                        "1. Seleccionar Jugador \n" + "2. Registro Jugada \n" +  "3. Salir"));
             } catch (NumberFormatException e) {
                 throw new NumberFormatException("Debe ingresar un número válido");
             }
@@ -65,6 +65,11 @@ public class Main {
                     maquinas.get(idMaquina-1).Jugar(j);
                     break;
                 case 2:
+                   idMaquina = Integer.parseInt(JOptionPane.showInputDialog("¿De cual maquina quiere ver el registro de jugadas? \n" + 
+                            "Introduce 1 para Adivina ó 2 para Ruleta")); 
+                    maquinas.get(idMaquina-1).imprimirRegistroJugadas();
+                    break;
+                case 3:
                     JOptionPane.showMessageDialog(null, "Hasta pronto. Gracias por participar");
                     break;
             }

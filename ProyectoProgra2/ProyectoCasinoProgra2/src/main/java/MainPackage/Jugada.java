@@ -69,5 +69,10 @@ public class Jugada {
     }*/
 
     public String getJugada() {return "idJugador: " + this.getIdJugador() + " idMaquina: " + this.getIdMaquina() + " resultado: " + this.isResultado() +  " dineroGanado: " + this.getDineroGanado(); }
-    
+ 
+     @Override
+    public String toString() { 
+        
+        return "idJugador: " + this.getIdJugador() + " idMaquina: " + this.getIdMaquina() + " resultado: " + this.isResultado() +  " dineroGanado: " + this.getDineroGanado();        
+    } 
 }

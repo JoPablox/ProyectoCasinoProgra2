@@ -2,6 +2,7 @@ package MainPackage;
 
 
 import java.util.*;
+import javax.swing.JOptionPane;
 
 /**
  * 
@@ -74,4 +75,14 @@ public class Maquina {
     public void agregarJugada(Jugada j) {
         this.jugadas.add(j);
     }
+    
+    public void imprimirRegistroJugadas(){
+        String registro = "";
+        System.out.println("Registro de jugadas de esta maquina");
+        this.getJugadas().forEach((n) -> {
+          //registro += n.toString();
+          System.out.println(n.toString());
+        });
+       // JOptionPane.showMessageDialog(null, registro);
+}
 }
