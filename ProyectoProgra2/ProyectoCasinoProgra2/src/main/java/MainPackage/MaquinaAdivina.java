@@ -23,7 +23,7 @@ public class MaquinaAdivina extends Maquina {
     public Double getCostoJugada() {
         return super.getCostoJugada();
     }
-
+    @Override
     public void Jugar(Jugador jugador) {
         if (jugador.getCantDineroDisp() >= this.getCostoJugada()) {
             // 1. Cobrarle al jugador

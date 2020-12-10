@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 /**
  * 
  */
-public class Maquina {
+public abstract class Maquina {
 
     /**
      * Default constructor
@@ -39,10 +39,7 @@ public class Maquina {
     /**
      * @param jugador
      */
-    public void Jugar(Jugador jugador) {
-        // TODO implement here
-        
-    }
+    public abstract void Jugar(Jugador jugador);
 
     /**public void RegistroJugadas(){
         for Arraylist()
