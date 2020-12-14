@@ -22,7 +22,7 @@ public class Main {
         
         // Crear arrayList maquinas
         Maquina maquina1 = new MaquinaAdivina(1,"Advina 01", 5);
-        Maquina maquina2 = new MaquinaAdivina(2,"Ruleta 02", 10);
+        Maquina maquina2 = new MaquinaRuleta(2,"Ruleta 02", 10);
         
         ArrayList<Maquina> maquinas = new ArrayList();
         maquinas.add(maquina1);

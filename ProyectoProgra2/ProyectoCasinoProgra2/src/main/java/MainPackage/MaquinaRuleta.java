@@ -17,8 +17,8 @@ public class MaquinaRuleta extends Maquina {
     public MaquinaRuleta(int id, String nombre, double costo) {
         super.Maquina(id, nombre, costo);
     }
-    
-        public void Jugar(Jugador jugador) {
+    @Override
+    public void Jugar(Jugador jugador) {
         if (jugador.getCantDineroDisp() > this.getCostoJugada()) {
             // 1. Cobrarle al jugador
             jugador.setCantDineroDisp(jugador.getCantDineroDisp() - this.getCostoJugada());
