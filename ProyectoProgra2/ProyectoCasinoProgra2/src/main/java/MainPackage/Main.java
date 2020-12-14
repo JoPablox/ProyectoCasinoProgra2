@@ -73,7 +73,7 @@ public class Main {
                     JOptionPane.showMessageDialog(null, "Hasta pronto. Gracias por participar");
                     break;
             }
-        } while (opcion != 2);
+        } while (opcion != 3);
     }
     
 }

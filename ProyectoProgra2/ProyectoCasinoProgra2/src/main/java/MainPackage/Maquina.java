@@ -80,9 +80,10 @@ public class Maquina {
         String registro = "";
         System.out.println("Registro de jugadas de esta maquina");
         this.getJugadas().forEach((n) -> {
-          //registro += n.toString();
+          registro = "Hola" +"\n" + n.toString();
           System.out.println(n.toString());
         });
-       // JOptionPane.showMessageDialog(null, registro);
+       JOptionPane.showMessageDialog(null, registro);
+       
 }
 }
