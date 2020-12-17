@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Casino {
 
-    private Double cantDineroCaja;
+    private Double cantDineroCaja; // NO se llego a utilizar
     private ArrayList<Jugador> jugadores;
     private ArrayList<Maquina> maquinas;
 

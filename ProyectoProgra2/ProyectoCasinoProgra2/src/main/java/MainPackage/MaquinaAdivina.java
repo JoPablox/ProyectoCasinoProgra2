@@ -51,7 +51,7 @@ public class MaquinaAdivina extends Maquina {
                 jugada.setDineroGanado((double) 0);
             }
             this.agregarJugada(jugada);
-            jugador.agregarJugada(jugada);
+            //jugador.agregarJugada(jugada);
             System.out.println(jugada.getJugada());
 
         } else {
